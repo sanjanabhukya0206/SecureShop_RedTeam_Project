@@ -1,0 +1,4 @@
+body { font-family: Arial, sans-serif; max-width: 1000px; margin: 30px auto; padding: 0 20px; background:#f6f6f6; }
+nav { padding:15px; background:#222; } nav a { color:white; margin-right:10px; text-decoration:none; }
+.card { background:white; display:inline-block; vertical-align:top; width:200px; margin:10px; padding:15px; border-radius:8px; }
+input,button { margin:5px; padding:8px; } table { border-collapse:collapse; background:white; } td,th { border:1px solid #aaa; padding:8px; }

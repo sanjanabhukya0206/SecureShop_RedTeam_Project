@@ -1,0 +1,6 @@
+{% extends "base.html" %}{% block content %}
+<h2>Admin Area</h2>
+<p>LAB ONLY: this page intentionally exposes password fields to demonstrate a security weakness.</p>
+<table><tr><th>ID</th><th>Username</th><th>Role</th><th>Password</th></tr>
+{% for u in users %}<tr><td>{{u.id}}</td><td>{{u.username}}</td><td>{{u.role}}</td><td>{{u.password}}</td></tr>{% endfor %}</table>
+{% endblock %}

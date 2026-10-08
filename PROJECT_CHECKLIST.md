@@ -1,0 +1,22 @@
+# SecureShop project checklist
+
+- [x] Flask application
+- [x] Registration/login
+- [x] Product catalogue/search/details
+- [x] Profile
+- [x] Orders
+- [x] Cart foundation
+- [x] Admin area
+- [x] Health endpoint
+- [x] 4+ controlled weaknesses
+- [x] Intentionally old dependency pin
+- [x] Fixed reference implementation
+- [x] Separate fixed dependency file
+- [x] Windows run workflow
+- [x] Smoke tests
+- [x] ZAP/report guidance
+- [ ] Install dependencies locally
+- [ ] Run vulnerable app locally
+- [ ] Run ZAP and capture evidence
+- [ ] Run fixed app and retest
+- [ ] Fill final report with actual ZAP results and verified dependency/CVE information

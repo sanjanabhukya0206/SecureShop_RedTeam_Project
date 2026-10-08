@@ -1,0 +1,5 @@
+{% extends "base.html" %}{% block content %}
+<h2>Order History</h2><p>The fixed version ignores a user-supplied <code>user_id</code> and uses the authenticated identity.</p>
+<table><tr><th>ID</th><th>User</th><th>Product</th><th>Quantity</th></tr>
+{% for o in orders %}<tr><td>{{o.id}}</td><td>{{o.username}}</td><td>{{o.product_id}}</td><td>{{o.quantity}}</td></tr>{% else %}<tr><td colspan="4">No orders yet.</td></tr>{% endfor %}</table>
+{% endblock %}

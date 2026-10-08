@@ -1,0 +1,4 @@
+{% extends "base.html" %}{% block content %}
+<h2>Cart / Orders</h2>
+{% for o in orders %}<p>Order #{{o.id}} — product {{o.product_id}} — quantity {{o.quantity}}</p>{% endfor %}
+{% endblock %}

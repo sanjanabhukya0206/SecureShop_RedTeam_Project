@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>SecureShop Lab</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<nav>
+  <a href="/">SecureShop</a> |
+  <a href="/products">Products</a> |
+  <a href="/register">Register</a> |
+  <a href="/login">Login</a> |
+  <a href="/profile">Profile</a> |
+  <a href="/cart">Cart</a> |
+  <a href="/orders">Orders</a> |
+  <a href="/admin">Admin</a> |
+  <a href="/logout">Logout</a>
+</nav>
+<main>{% block content %}{% endblock %}</main>
+</body>
+</html>
